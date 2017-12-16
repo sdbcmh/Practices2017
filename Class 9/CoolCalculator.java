@@ -19,6 +19,7 @@ public class CoolCalculator{
         f.setNumber(3);
         f.calculate();
         n2 = f.getResult();
+        System.out.println( " factor " + " " +f.getResult());
     }catch(Exception e){
       System.out.println("Something went wrong with the factoring");
     }
